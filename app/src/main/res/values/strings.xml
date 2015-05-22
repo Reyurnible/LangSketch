@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name-->
+    <string name="app_name">LangSketch</string>
+    <!-- Page Titles (title_(class name)_(page name))-->
+    <string name="title_activity_login">ようこそ</string>
+    <string name="title_activity_login_name">あなたの名前は？</string>
+    <string name="title_activity_parts_list">ヒントを選択</string>
+    <string name="title_activity_other_answer">みんなの答え</string>
+    <string name="title_activity_gallery_all">みんなが描いた絵</string>
+    <string name="title_activity_history">いままで描いた絵</string>
+    <string name="title_activity_commnet">英語にしよう</string>
+    <string name="title_activity_comment_answer">あなたの絵の回答</string>
+    <string name="title_activity_pager">PagerActivity</string>
+    <string name="title_activity_confilm">もう一度確認</string>
+
+    <!-- PageParams -->
+    <!-- Common -->
+    <!-- Login -->
+    <string name="login_textview_nickname">ニックネームを入力してね</string>
+    <string name="login_textview_age">ニックネームを入力してね</string>
+    <string name="login_textview_country">くにを入力してね</string>
+    <string name="login_failed">ログインに失敗しました</string>
+    <string name="login_button_start">スタート</string>
+    <string name="login_button_next">つぎへ</string>
+    <string name="login_name_faild_dialog_title">何も入力されていません</string>
+    <string name="login_name_faild_dialog_message">1文字以上入力してください!</string>
+    <string name="signup_faild_dialog_title">ユーザーの作成に失敗しました</string>
+    <string name="signup_faild_dialog_message">ユーザ名がすでに使われています</string>
+    <!-- Top -->
+    <string name="top_button_start">はじめる</string>
+    <string name="top_button_gallery">これまでの絵</string>
+    <string name="top_button_other">みんなの絵</string>
+    <!-- Play -->
+    <string name="play_toast_faild_stamp_get">画像を取得できなかったよ</string>
+    <string name="play_nodraw_dialog_title">何もかかれていません</string>
+    <string name="play_nodraw_dialog_message">何かかいて！</string>
+    <!-- Confilm -->
+    <string name="confilm_textview_finish">かんせい！</string>
+    <string name="confilm_textview_question">テーマ：</string>
+    <string name="confilm_button_send">かいとうする</string>
+    <!-- Other Answer -->
+    <string name="other_answer_button_top">トップへ</string>
+    <string name="other_answer_textview_question">テーマ文章</string>
+    <!-- PartsList -->
+    <string name="parts_list_textview_notfound">ヒントが見つかりませんでした</string>
+    <!-- Comment -->
+    <string name="comment_button_ok">OK</string>
+    <string name="comment_edittext_hint">タップして入力してください</string>
+    <!-- Comment Answer -->
+    <string name="comment_answer_textview_orizinal">元のぶんしょう</string>
+    <string name="comment_answer_textview_answer">あなたの答え</string>
+
+    <!-- RemindLater -->
+    <string name="remind_later_title">これなに？</string>
+    <string name="remind_later_message">この写真を英語で説明して</string>
+
+    <!-- Dialog Fragment -->
+    <string name="dialog_positive_button">OK</string>
+    <string name="dialog_negative_button">キャンセル</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zeroone_creative.basicapplication" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="ANDROID.PERMISSION.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:name=".LangagExpressApplication"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Custom" >
+        <activity android:name=".view.activity.TopActivity_" >
+        </activity>
+        <activity android:name=".view.activity.PlayActivity_" >
+        </activity>
+        <activity android:name=".view.activity.LoginActivity_" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activity.ConfilmActivity_"
+            android:label="@string/title_activity_confilm" >
+        </activity>
+        <activity
+            android:name=".view.activity.AnswerListActivity_"
+            android:label="@string/title_activity_other_answer" >
+        </activity>
+        <activity
+            android:name=".view.activity.PartsListActivity_"
+            android:label="@string/title_activity_parts_list" >
+        </activity>
+        <activity
+            android:name=".view.activity.CommentActivity_"
+            android:label="@string/title_activity_commnet" >
+        </activity>
+        <activity
+            android:name=".view.activity.CommentAnswerActivity_"
+            android:label="@string/title_activity_comment_answer" >
+        </activity>
+        <receiver android:name=".view.RemindLaterReceiver"></receiver>
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
